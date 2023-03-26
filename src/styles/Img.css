@@ -1,0 +1,50 @@
+.outter_container {
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+    border: 1px solid white;
+}
+
+img {
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+}
+
+.img_container {
+    width: auto;
+    height: auto;
+}
+
+.description_outter_container {
+    width: 100%;
+    background-color: #ff8b88; ;
+}
+
+.description_inner_container {
+    display: flex;
+    justify-content: center;
+    background-color: #ff8b88; 
+}
+
+.download_container {
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.download_btn {
+  background-color: #99B898;
+  color: #FFFFFF;
+}
+
+#download_btn:hover,
+#download_btn:focus {
+  background-color: #FECEAB;
+  color: #2A363B;
+}
